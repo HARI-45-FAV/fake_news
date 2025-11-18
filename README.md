@@ -3,7 +3,7 @@
 
 ### **Cross-Domain Fake News Classification with Advanced Evaluation Metrics**
 
-**Project ID: 25Sk16** | **Course: CS3103 — Machine Learning Project**
+**Project ID: 25SK16** | **Course: CS3103 — Machine Learning Project**
 
 ---
 
@@ -70,26 +70,24 @@ The project uses **three industry-standard Fake News datasets**:
 ### **1️⃣ LIAR Dataset**
 
 * Short political statements with verdict labels
-  🔗 **ACL Paper:** [https://aclanthology.org/P17-2067/](https://aclanthology.org/P17-2067/)
-  🔗 **Kaggle:** [https://www.kaggle.com/datasets/armagansalman/liar-dataset](https://www.kaggle.com/datasets/armagansalman/liar-dataset)
+* 🔗 **ACL Paper:** [https://aclanthology.org/P17-2067/](https://aclanthology.org/P17-2067/)
+* 🔗 **Kaggle:** [https://www.kaggle.com/datasets/armagansalman/liar-dataset](https://www.kaggle.com/datasets/armagansalman/liar-dataset)
 
 ---
 
 ### **2️⃣ ISOT Fake News Dataset**
 
 * Real & fake news from mainstream media
-  🔗 **Official Dataset:**
-  [https://www.uvic.ca/engineering/ece/isot/datasets/fake-news/index.php](https://www.uvic.ca/engineering/ece/isot/datasets/fake-news/index.php)
-  🔗 **Kaggle:**
-  [https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets)
+* 🔗 **Official Dataset:** [https://www.uvic.ca/engineering/ece/isot/datasets/fake-news/index.php](https://www.uvic.ca/engineering/ece/isot/datasets/fake-news/index.php)
+* 🔗 **Kaggle:** [https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets)
 
 ---
 
 ### **3️⃣ GossipCop (FakeNewsNet)**
 
 * Fake celebrity news dataset
-  🔗 **Research Paper:** [https://arxiv.org/abs/1809.01286](https://arxiv.org/abs/1809.01286)
-  🔗 **GitHub:** [https://github.com/KaiDMML/FakeNewsNet](https://github.com/KaiDMML/FakeNewsNet)
+* 🔗 **Research Paper:** [https://arxiv.org/abs/1809.01286](https://arxiv.org/abs/1809.01286)
+* 🔗 **GitHub:** [https://github.com/KaiDMML/FakeNewsNet](https://github.com/KaiDMML/FakeNewsNet)
 
 ---
 
@@ -108,7 +106,7 @@ data/combined_news.csv
 
 ---
 
-# 🔥 Methodology (Simple & Professional)
+# 🔥 Methodology 
 
 ### **1️⃣ Raw Datasets Collection**
 
@@ -152,8 +150,6 @@ Metrics computed:
 * Macro-F1
 * Balanced Accuracy
 * AUROC
-* ECE (Expected Calibration Error)
-* Brier Score
 * Confusion Matrix
 * ROC Curve
 
@@ -200,18 +196,6 @@ Interactive dashboard with:
 * Macro-F1
 * AUROC
 * Balanced Accuracy
-
-### **Calibration Metrics**
-
-* Expected Calibration Error (ECE)
-* Brier Score
-* Overconfidence Index
-
-### **Distributional Robustness**
-
-* Worst Group Accuracy (WGA)
-* Best Group Accuracy (BGA)
-* Robustness Gap (BGA – WGA)
 
 ### **Visualizations Saved**
 
@@ -272,68 +256,10 @@ Open the URL shown in the terminal.
 
 ---
 
-# 🚀 Features of Streamlit App (app.py)
-
-* Single news prediction
-* BERT-based probability visualization
-* LIME interpretability
-* WordCloud
-* Full training metrics panel
-* Full test metrics panel
-* ROC, Confusion Matrix, Calibration Plots
 
 ---
 
-# 🎯 Key Contributions
 
-✔ Fully automated dataset cleaning
-✔ Cross-domain evaluation pipeline
-✔ Advanced calibration & robustness metrics
-✔ 20+ visual analytics plots
-✔ Streamlit deployment-ready
-✔ Research-grade methodology
 
----
 
-# 📚 Best References
 
-### **1️⃣ LIAR**
-
-🔗 [https://aclanthology.org/P17-2067/](https://aclanthology.org/P17-2067/)
-🔗 [https://www.kaggle.com/datasets/armagansalman/liar-dataset](https://www.kaggle.com/datasets/armagansalman/liar-dataset)
-
-### **2️⃣ ISOT**
-
-🔗 [https://www.uvic.ca/engineering/ece/isot/datasets/fake-news/index.php](https://www.uvic.ca/engineering/ece/isot/datasets/fake-news/index.php)
-🔗 [https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets)
-
-### **3️⃣ GossipCop / FakeNewsNet**
-
-🔗 [https://arxiv.org/abs/1809.01286](https://arxiv.org/abs/1809.01286)
-🔗 [https://github.com/KaiDMML/FakeNewsNet](https://github.com/KaiDMML/FakeNewsNet)
-
----
-
-# 🏁 Final Output
-
-Your system delivers:
-
-### ✔ High-accuracy DistilBERT fake news detector
-
-### ✔ Robust across unseen datasets
-
-### ✔ Full explainability (LIME)
-
-### ✔ Research-grade evaluation and visualization
-
-### ✔ Clean UI via Streamlit
-
----
-
-If you want, I can also:
-
-✅ Add badges (build, license, python version)
-✅ Add GIF demo of Streamlit
-✅ Add citation format for your research paper
-
-Just tell me **“Add badges”**, **“Add GIF”**, or **“Add citation section”**.
