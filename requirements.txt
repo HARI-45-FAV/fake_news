@@ -1,0 +1,12 @@
+torch==2.5.1+cu121 ; platform_system=="Windows"
+torchaudio==2.5.1+cu121 ; platform_system=="Windows"
+torchvision==0.20.1+cu121 ; platform_system=="Windows"
+transformers==4.45.2
+accelerate==0.34.2
+scikit-learn==1.5.2
+pandas==2.2.3
+numpy==2.2.0
+matplotlib==3.9.2
+seaborn==0.13.2
+tqdm==4.67.1
+streamlit==1.40.1
